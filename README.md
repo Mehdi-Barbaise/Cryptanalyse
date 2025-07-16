@@ -15,3 +15,11 @@ A small script that simply encode a txt file in base64, line per line. The initi
 
 Usage:
 $ ./encodelist_base64.sh <wordlist_path>
+
+
+### alt_progr_caesar_decode.py ###
+The goal of this script was to crack progressive caesar cipher from TryHackMe's Room "Cipher's Secret Message".
+I analyzed each step of the encryption process, and did the exact contrary.
+
+usage:
+$ python3 alt_progr_caesar_decode.py
